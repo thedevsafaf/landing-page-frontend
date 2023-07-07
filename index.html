@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7up-Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <!-- header starts -->
+        <header>
+            <a href="#"><img src="images/logo.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <!-- header ends -->
+        <!-- content starts -->
+        <div class="content">
+            <div class="text-container">
+                <h2>DRINK IT<br><span>STRAIGHT UP</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi saepe quae, fugit non delectus necessitatibus ipsum magni inventore explicabo, nisi sit harum laudantium quibusdam eum, accusantium incidunt est quaerat obcaecati.</p>
+                <a href="#">EXPLORE NOW</a>
+            </div>
+            <div class="image-container">
+                <img src="images/7up-green-can.png" alt="image" class="seven-up">
+            </div>
+        </div>
+        <ul class="models">
+            <li><img src="images/7up-green-can.png" alt="img" onclick="imageSlider('images/7up-green-can.png');changeBackgroundColor('#07893d');"></li>
+            <li><img src="images/7up-silver-can.png" alt="img" onclick="imageSlider('images/7up-silver-can.png');changeBackgroundColor('#111111');"></li>
+            <li><img src="images/7up-red-can.png" alt="img" onclick="imageSlider('images/7up-red-can.png');changeBackgroundColor('#820000');"></li>
+        </ul>
+        <ul class="social-media-icons">
+            <li><a href="#"><img src="icons/ig.png" alt="icon"></a></li>
+            <li><a href="#"><img src="icons/tw.png" alt="icon"></a></li>
+            <li><a href="#"><img src="icons/fb.png" alt="icon"></a></li>
+        </ul>
+        <!-- content ends -->
+    </section>
+    <!-- js functions -->
+    <script src="main.js"></script>    
+    <!-- js functions end -->
+</body>
+</html>
